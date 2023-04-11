@@ -22,12 +22,12 @@ def validate_string(value):
             has_digit = True
 
     # Imprimimos los resultados
-    print("Contiene mayúsculas:", has_upper)
-    print("Contiene minúsculas:", has_lower)
-    print("Contiene caracteres alfanuméricos:", has_alnum)
-    print("Contiene caracteres alfabéticos:", has_alpha)
-    print("Contiene dígitos:", has_digit)
-    print("Es lo suficientemente larga:", is_long_enough)
+    print(has_alnum) # Contiene caracteres alfanumericos
+    print(has_alpha) # Contiene caracteres alfabéticos
+    print(has_upper) # Contiene mayúsculas
+    print(has_lower) # Contiene minúsculas
+    print(has_digit) # Contiene dígitos
+    print(is_long_enough) # Es lo suficientemente larga
 
 if __name__ == '__main__':
     value = input("Ingrese una cadena: ")

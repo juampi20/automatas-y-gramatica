@@ -24,7 +24,7 @@ def solve(value):
     for i in range(len(simbolos)):
         resultado += values[i+1]
 
-    print(resultado)
+    return resultado
     
 
 if __name__ == '__main__':
