@@ -1,6 +1,6 @@
 import re
 
-patron = r'^((https|http):\/\/)?(www\.)?[\da-z\.-]+\.[a-z\.]{2,6}[\/\w\.\-]*(\/|\?)?([\w\-]+=[\w\-]+&?)*$'
+patron = r'^((https|http):\/\/)?(www\.)?[a-z]+\.[a-z]{2,3}[\/\w\-]+((\.(html|php))?)((\/|\?)?([\w]+=[\w]+&?)*)?$'
 
 urls = [
     'https://www.facebook.com/',
