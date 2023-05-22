@@ -1,7 +1,7 @@
 import re
 
 
-patron = r'^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.(com|edu|org|net|gov)|[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.(ar|br|cl|es|pe)$'
+patron = r'^[^._-][\w\d._-][^._-]+@[a-z]+(\.(com|edu|org|net|gov))?(\.(ar|br|cl|es|pe))?$'
 
 emails = [
     'nombre@dominio.com',      # Válido
